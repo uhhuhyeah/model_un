@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "model_un"
   s.version     = ModelUn::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["Uh Huh Yeah"]
+  s.email       = ["david@uhhuhyeah.com"]
+  s.homepage    = "https://github.com/uhhuhyeah/model_un"
+  s.summary     = %q{Quick and easy country and US State abbreviations}
+  s.description = %q{Converts US State names and (most) country names to their normally accepted abbreviations and back.}
 
   s.rubyforge_project = "model_un"
 
