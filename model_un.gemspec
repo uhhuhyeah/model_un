@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Quick and easy country and US State abbreviations}
   s.description = %q{Converts US State names and (most) country names to their normally accepted abbreviations and back.}
 
+  s.add_development_dependency "rspec"
   s.rubyforge_project = "model_un"
 
   s.files         = `git ls-files`.split("\n")
