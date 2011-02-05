@@ -10,4 +10,9 @@ describe 'ModelUn' do
     state = 'California'
     ModelUn.convert(state).should == 'CA'
   end
+  
+  it "should return a full state for an abbreviation" do
+    abbr = 'CA'
+    ModelUn.convert(abbr).should == 'CALIFORNIA'
+  end
 end

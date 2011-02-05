@@ -4,7 +4,11 @@ module ModelUn
   class << self
     
     def convert(string)
-      self.convert_state_name(string.upcase)
+      if string.length == 2
+        self.convert_state_abbr(string.upcase)
+      else
+        self.convert_state_name(string.upcase)
+      end
     end
     
     def convert_state_abbr(state_abbr)
@@ -12,6 +16,7 @@ module ModelUn
     end
     
     def convert_state_abbreviation(state_abbr)
+      return US_STATE_NAMES[US_STATE_ABBR.index(state_abbr)]
     end
     
     def convert_state_name(state_name)
