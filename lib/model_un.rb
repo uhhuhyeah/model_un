@@ -1,5 +1,6 @@
 module ModelUn
   require "model_un/data"
+  require 'yaml'
   
   class << self
     
@@ -29,6 +30,10 @@ module ModelUn
       rescue Exception
         return state_name.downcase.gsub(/\b\w/){$&.upcase}
       end
+    end
+    
+    def export_states_list
+      {'US States' => US_STATES}.to_yaml.gsub(/\n/,'').gsub(/-/, '').strip
     end
     
   end

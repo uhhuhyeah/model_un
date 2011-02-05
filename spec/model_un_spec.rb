@@ -1,6 +1,6 @@
 require 'model_un'
 
-describe 'ModelUn' do
+describe ModelUn do
   
   it "should be able to read the data hash" do
     ModelUn::US_STATES.should_not == nil
@@ -25,4 +25,5 @@ describe 'ModelUn' do
     state = 'Foobar'
     ModelUn.convert(state).should == state
   end
+
 end
