@@ -39,9 +39,10 @@ Or, a shortcut for either method
 Current version: v0.1 (February 2011)
 =====================================
 
-*Supports conversion of US State names (including Guam, Marshal and Virgin Islands) 
+*	Supports conversion of US State names (including Guam, Marshal and Virgin Islands)
+* [Country conversions to be added in next release] 
 
 Known issues
 ------------
 
-No known issues. Please report bugs to [david at uhhuhyeah.com](mailto:david@uhhuhyeah.com?subject=ModelUn), or fee free for send me a patch.
+*	No known issues. Please report bugs to [david@uhhuhyeah.com](mailto:david@uhhuhyeah.com?subject=ModelUn), or fee free for send me a patch.
