@@ -13,7 +13,7 @@ describe 'ModelUn' do
   
   it "should return a full state for an abbreviation" do
     abbr = 'CA'
-    ModelUn.convert(abbr).should == 'CALIFORNIA'
+    ModelUn.convert(abbr).should == 'California'
   end
   
   it "should return the input if no match on abbreviation" do
@@ -22,7 +22,7 @@ describe 'ModelUn' do
   end
   
   it "should return the input if no match on full name" do
-    state = 'FOOBAR'
+    state = 'Foobar'
     ModelUn.convert(state).should == state
   end
 end

@@ -17,7 +17,7 @@ module ModelUn
     
     def convert_state_abbreviation(state_abbr)
       begin
-        return US_STATE_NAMES[US_STATE_ABBR.index(state_abbr)]
+        return US_STATE_NAMES[US_STATE_ABBR.index(state_abbr)].downcase.gsub(/\b\w/){$&.upcase}
       rescue Exception
         return state_abbr
       end
@@ -27,7 +27,7 @@ module ModelUn
       begin
         return US_STATE_ABBR[US_STATE_NAMES.index(state_name)]
       rescue Exception
-        return state_name
+        return state_name.downcase.gsub(/\b\w/){$&.upcase}
       end
     end
     
