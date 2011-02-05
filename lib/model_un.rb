@@ -16,11 +16,20 @@ module ModelUn
     end
     
     def convert_state_abbreviation(state_abbr)
-      return US_STATE_NAMES[US_STATE_ABBR.index(state_abbr)]
+      begin
+        return US_STATE_NAMES[US_STATE_ABBR.index(state_abbr)]
+      rescue Exception
+        return state_abbr
+      end
     end
     
     def convert_state_name(state_name)
-      return US_STATE_ABBR[US_STATE_NAMES.index(state_name)]
+      begin
+        return US_STATE_ABBR[US_STATE_NAMES.index(state_name)]
+      rescue Exception
+        return state_name
+      end
     end
+    
   end
 end

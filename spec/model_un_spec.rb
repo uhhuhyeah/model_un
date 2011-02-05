@@ -15,4 +15,14 @@ describe 'ModelUn' do
     abbr = 'CA'
     ModelUn.convert(abbr).should == 'CALIFORNIA'
   end
+  
+  it "should return the input if no match on abbreviation" do
+    abbr = 'XX'
+    ModelUn.convert(abbr).should == 'XX'
+  end
+  
+  it "should return the input if no match on full name" do
+    state = 'FOOBAR'
+    ModelUn.convert(state).should == state
+  end
 end
