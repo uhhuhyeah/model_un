@@ -1,4 +1,4 @@
-module ModelUn
+module ModelUN
   require "model_un/data"
   require 'yaml'
   

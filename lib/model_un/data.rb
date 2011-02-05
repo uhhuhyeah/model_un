@@ -1,4 +1,4 @@
-module ModelUn
+module ModelUN
   US_STATE_ABBR = [
     'AL',
     'AK',

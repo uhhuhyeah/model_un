@@ -4,7 +4,7 @@ require "model_un/version"
 
 Gem::Specification.new do |s|
   s.name        = "model_un"
-  s.version     = ModelUn::VERSION
+  s.version     = ModelUN::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Uh Huh Yeah"]
   s.email       = ["david@uhhuhyeah.com"]
