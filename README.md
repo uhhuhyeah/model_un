@@ -75,4 +75,4 @@ Upcoming features:
 Known issues
 ------------
 
-*	No known issues. Please report bugs to [david@uhhuhyeah.com](mailto:david@uhhuhyeah.com?subject=ModelUN), or fee free for send me a patch.
+*	No known issues. Please report bugs to [david@uhhuhyeah.com](mailto:david@uhhuhyeah.com?subject=ModelUN), or feel free for send me a patch.
