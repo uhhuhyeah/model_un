@@ -242,7 +242,7 @@ module ModelUN
     "COTE D'IVOIRE",
     "CROATIA",
     "CUBA",
-    "CURAÇAO",
+    "CURACAO",
     "CYPRUS",
     "CZECH REPUBLIC",
     "DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
