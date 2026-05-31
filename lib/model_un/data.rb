@@ -58,7 +58,10 @@ module ModelUN
     'WA',
     'WV',
     'WI',
-    'WY'
+    'WY',
+    'AA',
+    'AE',
+    'AP'
   ]
   
   
@@ -113,7 +116,7 @@ module ModelUN
      'SOUTH CAROLINA',                  
      'SOUTH DAKOTA',                    
      'TENNESSEE',                       
-     'TEXAS',                           
+     'TEXAS',
      'UTAH',                            
      'VERMONT',                         
      'VIRGIN ISLANDS',                  
@@ -121,7 +124,10 @@ module ModelUN
      'WASHINGTON',                      
      'WEST VIRGINIA',                   
      'WISCONSIN',                       
-     'WYOMING',                         
+     'WYOMING',
+     'U.S. ARMED FORCES - AMERICAS',
+     'U.S. ARMED FORCES - EUROPE',
+     "U.S. ARMED FORCES - PACIFIC"                              
    ]
   
   US_STATES = [
